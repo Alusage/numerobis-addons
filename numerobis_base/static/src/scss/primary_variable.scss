@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('/numerobis_base/static/src/font/Gilroy-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/numerobis_base/static/src/font/Gilroy-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('/numerobis_base/static/src/font/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('/numerobis_base/static/src/font/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('/numerobis_base/static/src/font/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Thin';
+    src: url('/numerobis_base/static/src/font/Gilroy-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('/numerobis_base/static/src/font/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraLight';
+    src: url('/numerobis_base/static/src/font/Gilroy-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('/numerobis_base/static/src/font/Gilroy-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('/numerobis_base/static/src/font/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ThinItalic';
+    src: url('/numerobis_base/static/src/font/Gilroy-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-LightItalic';
+    src: url('/numerobis_base/static/src/font/Gilroy-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraLightItalic';
+    src: url('/numerobis_base/static/src/font/Gilroy-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Italic';
+    src: url('/numerobis_base/static/src/font/Gilroy-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-MediumItalic';
+    src: url('/numerobis_base/static/src/font/Gilroy-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-BoldItalic';
+    src: url('/numerobis_base/static/src/font/Gilroy-Regular.ttfe/static/src/font/Gilroy-Light.ttf') format('truetype');
+}
+
+$o-theme-font-configs: map-merge($o-theme-font-configs, (
+    'Gilroy-Black': (
+        'family': ('Gilroy-Black'),
+    ),
+    'Gilroy-Bold': (
+        'family': ('Gilroy-Bold'),
+    ),
+    'Gilroy-Light': (
+        'family': ('Gilroy-Light'),
+    ),
+    'Gilroy-Medium': (
+        'family': ('Gilroy-Medium'),
+    ),
+    'Gilroy-Regular': (
+        'family': ('Gilroy-Regular'),
+    ),
+    'Gilroy-Thin': (
+        'family': ('Gilroy-Thin'),
+    ),
+    'Gilroy-ExtraBold': (
+        'family': ('Gilroy-ExtraBold'),
+    ),
+    'Gilroy-ExtraLight': (
+        'family': ('Gilroy-ExtraLight'),
+    ),
+    'Gilroy-Heavy': (
+        'family': ('Gilroy-Heavy'),
+    ),
+    'Gilroy-SemiBold': (
+        'family': ('Gilroy-SemiBold'),
+    ),
+    'Gilroy-ThinItalic': (
+        'family': ('Gilroy-ThinItalic'),
+    ),
+    'Gilroy-LightItalic': (
+        'family': ('Gilroy-LightItalic'),
+    ),
+    'Gilroy-ExtraLightItalic': (
+        'family': ('Gilroy-ExtraLightItalic'),
+    ),
+    'Gilroy-Italic': (
+        'family': ('Gilroy-Italic'),
+    ),
+    'Gilroy-MediumItalic': (
+        'family': ('Gilroy-MediumItalic'),
+    ),
+    'Gilroy-BoldItalic': (
+        'family': ('Gilroy-BoldItalic'),
+    ),
+));
